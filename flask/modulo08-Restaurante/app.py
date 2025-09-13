@@ -5,6 +5,7 @@ from flask import Flask, render_template, url_for, redirect
 app = Flask(__name__)
 
 # Rota principal redireciona para o login
+#teste
 @app.route('/')
 def index():
     #return  "<h1>Rota principal acessada, redirecionando para o login... </h1>"
